@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>people</title>
+    <style>
+       .contain-1{
+
+        display: flex;
+       }
+       .contain-1 img{
+        width: 50%;
+        height: 50%;
+       }
+       .contain-2{
+        display: flex;
+       }
+       .contain-2 img{
+        width: 50%;
+        height: 50%;
+       }
+       @media screen and (max-width:576px) {
+         .contain-1{                        /* same sequaence a sajabe */
+            flex-direction: column;
+          }
+          .contain-2{
+            flex-direction: column-reverse;
+          }
+       }
+    </style>
+</head>
+<body>
+      <div class="container">
+        <div class="contain-1">
+             <img src="images/la.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat eos quae ab eveniet ullam nisi sit ratione? Odio veniam nihil, blanditiis facilis facere, adipisci sunt, expedita itaque quos cumque aliquid! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit amet provident quae delectus eius! Quidem, aut aperiam vitae qui odit hic, corrupti ab iste nihil voluptatibus placeat earum? Dolorum accusantium aliquid vel impedit ipsa sequi voluptate porro quisquam, explicabo non a quam deleniti quo numquam deserunt error voluptatibus animi ratione.</p>
+           
+        </div>
+        <div class="contain-2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cupiditate error consequatur. Excepturi ullam ad necessitatibus ex similique earum officiis rem voluptatibus molestias. Corporis aliquid consequatur natus porro blanditiis laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat totam ducimus autem ullam? Odit nostrum placeat autem aspernatur nemo maxime consequuntur qui nobis accusamus veniam, quos quidem quas cumque, laboriosam, exercitationem illum quam vitae consequatur deserunt? Cumque deleniti magnam illo suscipit quisquam. Sit aut veritatis magni reprehenderit? Molestias, nemo!</p>
+            <img src="images/Group-of-People.jpg" alt="">
+        </div>
+      </div> 
+</body>
+</html>
